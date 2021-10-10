@@ -1,9 +1,9 @@
 .player {
-  display: flex;
+  display: auto;
   flex-direction: column;
 }
 
 .player__body {
-  display: flex;
+  display: auto;
   flex-grow: 1;
 }
