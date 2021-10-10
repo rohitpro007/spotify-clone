@@ -12,6 +12,7 @@ const scopes = [
   "user-follow-modify",
   "user-modify-playback-state",
   "user-read-recently-played",
+  "user-read-public",
   "user-read-private",
   "user-library-read",
   "user-top-read",
@@ -30,6 +31,17 @@ export const getTokenFromResponse = () => {
     .reduce((initial, item) => {
       var parts = item.split("=");
       initial[parts[0]] = decodeURIComponent(parts[1]);
+
+      return initial;
+    }, {});
+};
+export const getTokenFromPublic = () => {
+  return window.location.hash
+    .substring(1)
+    .split("&")
+    .reduce((initial, item) => {
+      var parts = item.split("=");
+      initial[parts[0]] = decodeURIComponent(parts[2]);
 
       return initial;
     }, {});
