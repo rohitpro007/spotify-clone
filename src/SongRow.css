@@ -3,7 +3,7 @@
   padding: 20px;
   display: flex;
   align-items: center;
-  z-index: 100;
+  z-index: 80;
   color: white;
 }
 
@@ -22,7 +22,7 @@
 }
 
 .songRow__info > p {
-  font-size: 14px;
+  font-size: 12px;
   margin-top: 3px;
   color: gray;
 }
