@@ -1,12 +1,12 @@
 .login {
   display: grid;
-  background-color: black;
+  background-color: white;
   height: 100vh;
   place-items: center;
 }
 
 .login > img {
-  height: 200px;
+  height: 300px;
 }
 
 .login > a {
