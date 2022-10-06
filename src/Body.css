@@ -10,7 +10,7 @@
 }
 
 .body::-webkit-scrollbar {
-  display: none;
+  display: flex;
 }
 
 .body__info {
