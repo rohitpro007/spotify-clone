@@ -115,7 +115,7 @@ function Footer({ spotify }) {
         <RepeatIcon className="footer__green" />
       </div>
       <div className="footer__right">
-        <Grid container spacing={2}>
+        <Grid container spacing={3}>
           <Grid item>
             <PlaylistPlayIcon />
           </Grid>
